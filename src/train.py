@@ -56,5 +56,5 @@ print(classification_report(y_test, y_pred))
 print("\nConfusion Matrix:")
 print(confusion_matrix(y_test, y_pred))
 
-# After the test, the expected result is probably: high accuracy!
+# After the training, the expected result is: high accuracy!
 # This is because: total_score strongly influences grade
