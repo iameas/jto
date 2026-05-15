@@ -18,9 +18,9 @@ streamlit | Dashboard|
 
 ## Note
 
-*src/train_1.py contains the first training codes for the dataset*
-*For a more advanced/stronger model, run src/train_2.py which uses random forest*
-*Please read through train_1.py to understand train_2.py*
+- *src/train_1.py contains the first training codes for the dataset*
+- *For a more advanced/stronger model, run src/train_2.py which uses random forest*
+- *Please read through train_1.py to understand train_2.py*
 
 ## Guide
 
