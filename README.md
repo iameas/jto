@@ -6,6 +6,7 @@
 | Library| purpose|
 ____________________
 | pandas | dataset handling |
+__________|___________________
 | numpy | numerical operations|
 |scikit-learn| ML models|
 |matplotlib | charts|
