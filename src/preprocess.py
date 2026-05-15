@@ -44,3 +44,9 @@ for index, label in enumerate(encoder.classes_):
 # Explanations: This is called a feature seperation. If you run the codes, you'll notice:
 # X contains: study hours, attendance, participation, and total score.
 # But our target is Y. Y contains our grade.
+
+# ============ What we have now: =========== #
+# Clean dataset
+# Encoded labels
+# train/test split
+# Target classes
