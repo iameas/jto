@@ -3,14 +3,13 @@
 ## Note: Library used in this development
 
 
-| Library| purpose|
+| Library| Purpose|
 |---------|--------|
-| pandas | dataset handling |
-__________|___________________
-| numpy | numerical operations|
+| pandas | Dataset handling |
+| numpy | Numerical operations|
 |scikit-learn| ML models|
-|matplotlib | charts|
-|xgboost | advanced model|
-streamlit | dashboard|
-| shap | explainable AI|
-|joblib | save model|
+|matplotlib | Charts|
+|xgboost | Advanced model|
+streamlit | Dashboard|
+| shap | Explainable AI|
+|joblib | Save model|
