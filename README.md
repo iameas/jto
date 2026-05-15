@@ -4,7 +4,7 @@
 
 
 | Library| purpose|
-____________________
+|---------|--------|
 | pandas | dataset handling |
 __________|___________________
 | numpy | numerical operations|
