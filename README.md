@@ -2,8 +2,9 @@
 
 ## Note: Library used in this development
 
+
 | Library| purpose|
-|_________|______|
+____________________
 | pandas | dataset handling |
 | numpy | numerical operations|
 |scikit-learn| ML models|
