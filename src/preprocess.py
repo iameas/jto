@@ -45,7 +45,8 @@ for index, label in enumerate(encoder.classes_):
 # X contains: study hours, attendance, participation, and total score.
 # But our target is Y. Y contains our grade.
 
-# ============ What we have now: =========== #
+# === What we have now: === #
+
 # Clean dataset
 # Encoded labels
 # train/test split
