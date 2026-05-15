@@ -1,6 +1,6 @@
 # Student Academic Performance Model Using Machine Learning
 
-*Summary: This project is to predict final exam score of CGPA*
+*Summary: This project is to predict final exam score or CGPA*
 
 ## Note: Library used in this development
 
