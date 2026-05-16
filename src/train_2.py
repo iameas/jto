@@ -4,6 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+import joblib
 
 # Added Random Forest
 from sklearn.ensemble import RandomForestClassifier 
@@ -77,6 +78,14 @@ feature_importance = feature_importance.sort_values(
 
 print("\nFeature Importance:")
 print(feature_importance)
+
+# Save model
+joblib.dump(model, "models/random_forest_model.pkl")
+
+# Save encoder
+joblib.dump(encoder, "models/label_encoder.pkl")
+
+print("\nModel and encoder saved successfully.")
 
 # === Random Forest === #
 # This improves accuracy, handles nonlinearity better, and reduces overfitting
