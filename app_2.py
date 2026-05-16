@@ -14,7 +14,7 @@ st.set_page_config(
 )
 
 # Title
-st.title("🎓 Student Academic Performance Prediction System")
+st.title("Student Academic Performance Prediction System")
 
 st.markdown(
     """

@@ -18,7 +18,7 @@ st.set_page_config(
 )
 
 # App title
-st.title("🎓 Student Academic Performance Prediction System")
+st.title("Student Academic Performance Prediction System")
 
 st.markdown("""
 This system predicts a student's academic grade using Machine Learning.
@@ -85,7 +85,7 @@ if st.button("Predict Grade"):
     st.info(f"Prediction Confidence: {confidence:.2f}%")
 
     # Display probability chart
-    st.subheader("📊 Grade Prediction Probabilities")
+    st.subheader("Grade Prediction Probabilities")
 
     grades = encoder.classes_
 
@@ -100,7 +100,7 @@ if st.button("Predict Grade"):
     st.pyplot(fig)
 
     # SHAP Explainability
-    st.subheader("🧠 SHAP Prediction Explanation")
+    st.subheader("SHAP Prediction Explanation")
 
     shap_values = explainer.shap_values(student_data)
 
@@ -116,7 +116,7 @@ if st.button("Predict Grade"):
     st.pyplot(shap_fig)
 
 # Feature Importance Section
-st.subheader("📌 Feature Importance")
+st.subheader("Feature Importance")
 
 importance = model.feature_importances_
 
