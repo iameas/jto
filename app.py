@@ -92,8 +92,7 @@ if st.button("Predict Grade"):
     confidence = probabilities.max() * 100
 
     # Display prediction result
-    st.success(f"Predicted Grade: {predicted_grade[0]}")
-      
+    st.success(f"Predicted Grade: {predicted_grade[0]}")  
     st.warning(f"Risk Level: {risk_level}")
         
     st.info(f"Prediction Confidence: {confidence:.2f}%")
