@@ -5,8 +5,8 @@ import matplotlib.pyplot as plt
 import shap
 
 # Load trained model and label encoder
-model = joblib.load("models/best_model.pkl")
-encoder = joblib.load("models/best_label_encoder.pkl")
+model = joblib.load("models/random_forest_model.pkl")
+encoder = joblib.load("models/label_encoder.pkl")
 
 # Create SHAP explainer
 explainer = shap.TreeExplainer(model)
@@ -76,26 +76,12 @@ if st.button("Predict Grade"):
     # Decode predicted label
     predicted_grade = encoder.inverse_transform(prediction)
 
-    # Risk Level Logic
-    grade = predicted_grade[0]
-
-    if grade in ["A", "B"]:
-        risk_level = "LOW RISK"
-
-    elif grade == "C":
-        risk_level = "MEDIUM RISK"
-
-    else:
-        risk_level = "HIGH RISK"
-
     # Confidence score
     confidence = probabilities.max() * 100
 
     # Display prediction result
     st.success(f"Predicted Grade: {predicted_grade[0]}")
-      
-    st.warning(f"Risk Level: {risk_level}")
-        
+
     st.info(f"Prediction Confidence: {confidence:.2f}%")
 
     # Display probability chart
